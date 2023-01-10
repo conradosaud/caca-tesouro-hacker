@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+</head>
+<body>
+
+    <script>
+        function codigo(){
+            const numero = 999559052058;
+            const resposta = prompt("Project number (número do projeto)?");
+            if( resposta != numero ){
+                alert("Incorreto!");
+            }else{
+				window.location.href = "sala13.html";
+			}
+        }
+    </script>
+
+	<div style=" text-align:center" >
+		<img src="twitter.png" style="width: 100%; max-width: 500px;" />
+		<br/>
+		<button onclick="codigo();" style="font-size: 1.3em; margin-top: 50px; padding: 5px 30px" > Inserir código </button>
+	</div>
+ 
+</body>
+</html>
